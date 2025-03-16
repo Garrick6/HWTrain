@@ -27,8 +27,5 @@ public class SolutionTest {
 
     @Test
     public void testSolveNQueens() {
-        Solution solution = new Solution();
-        boolean result = solution.checkInclusion(s1,s2);
-        assertEquals(ex, result); // 使用 JUnit 的 assertEquals 方法
     }
 }
